@@ -140,8 +140,11 @@ body h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80%;
+  height: 20%;
   font-size: 4rem;
+}
+body h2 {
+  font-size: 4vh;
 }
 body h3 {
   display: flex;
@@ -149,14 +152,21 @@ body h3 {
   margin-top: -5%;
   margin-bottom: 5%;
 }
-body div .namebox {
+.nameTable {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.namebox {
   display: flex;
   flex-direction: column;
-  margin: 5%;
-  margin-top: 20%;
+  margin: 2%;
+  align-items: center;
 }
-body .nameTable {
-  display: flex;
+.namebox h2 {
+  border: 2px solid red;
+  border-radius: 44px;
+  margin: 1%;
 }
 nav {
   display: flex;
